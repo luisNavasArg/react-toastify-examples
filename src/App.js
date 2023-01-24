@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import Tosty from './components/Notification'
+import NotCenter from './components/NotificationCenter'
+import Open from './components/AbrirCerrar'
+import ContextExample from './components/ContextExample'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Tosty/>
+<NotCenter/>
+<Open/>
+<ContextExample/>
     </div>
   );
 }
